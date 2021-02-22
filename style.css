@@ -1,0 +1,64 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+body {
+    background: url(img/bg_02.jpg) no-repeat;
+    background-size: 100% auto;
+    color: #fff;
+}
+
+.bg {
+    width: 360px;
+    height: 330px;
+    margin: 200px auto;
+    text-align: center;
+    /* 为了布局时候好看一些 设置一个边框 后期删掉 */
+    border: 1px solid #fff;
+    background: #00000060;
+    /* 60%的透明度 */
+}
+
+.bg img {
+    border-radius: 50%;
+}
+
+.bg h3 {
+    font-size: 20px;
+    padding: 10px 0;
+}
+
+.bg p {
+    padding: 10px 0;
+}
+
+.bg .first {
+    font-size: 18px;
+}
+
+.second {
+    font-size: 14px;
+}
+
+
+/* 底部图标 */
+
+.bg ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.bg ul li a {
+    font-size: 25px;
+    height: 30px;
+    width: 30px;
+    color: #fff;
+}
+
+.bg ul li a:hover {
+    font-size: 30px;
+}
