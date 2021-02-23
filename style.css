@@ -60,5 +60,9 @@ body {
 }
 
 .bg ul li a:hover {
-    transform:scale(2)
+    /*开始想尝试用C3特性完成这块儿的缩放效果
+    发现这个图标算是文字类的
+    需要改变字体大小font-szie才能该表图标大小*/
+    /*transform: scale(2);*/
+    font-size: 35px;
 }
