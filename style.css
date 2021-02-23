@@ -60,5 +60,5 @@ body {
 }
 
 .bg ul li a:hover {
-    font-size: 30px;
+    transform:scale(2)
 }
